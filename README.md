@@ -8,6 +8,7 @@
    * Login to account : 'http://localhost:3000/login'
    * Logout to account : 'http://localhost:3000/logout'
    * Delete an account : 'http://localhost:3000/me'
+   * Post a blog : 'http://localhost:3000/post'
    * For getting all blogs : 'http://localhost:3000/all-blogs'
    * For getting a particular blog : 'http://localhost:3000/all-blogs/:id'
    * Delete a particular blog : 'http://localhost:3000/all-blogs-delete/:id'
