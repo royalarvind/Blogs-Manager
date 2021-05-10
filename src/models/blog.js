@@ -9,10 +9,12 @@ const blog = mongoose.model('blogs',new mongoose.Schema({
     tags:[{
         type: String,
         enum : ['x','y','z'],
+        default:[]
     }], 
     author: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true,    
+        required: true,
+        ref:'users',    
     },
     claps:{
         type: Number,
